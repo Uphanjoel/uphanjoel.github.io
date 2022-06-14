@@ -645,16 +645,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 36rem;
 }
 
-.max-w-\[120px\] {
-  max-width: 120px;
-}
-
-.max-w-\[200px\] {
-  max-width: 200px;
-}
-
 .max-w-\[150px\] {
   max-width: 150px;
+}
+
+.max-w-\[120px\] {
+  max-width: 120px;
 }
 
 .origin-top-left {
@@ -718,9 +714,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-secondary {
   --tw-border-opacity: 1;
   border-color: rgb(100 116 139 / var(--tw-border-opacity));
+}
+
+.border-slate-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(51 65 85 / var(--tw-border-opacity));
 }
 
 .bg-transparent {
@@ -745,6 +750,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-slate-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
+.bg-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
 .fill-current {
@@ -802,6 +812,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 4rem;
 }
 
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -834,6 +864,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -876,8 +911,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.opacity-50 {
-  opacity: 0.5;
+.text-slate-300 {
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
 }
 
 .opacity-70 {
